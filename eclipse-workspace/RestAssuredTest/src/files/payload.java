@@ -21,4 +21,22 @@ public class payload {
 				+ "    \"language\": \"French_IN\"\n"
 				+ "}";
 	}
+	
+	public static String UpdatePlace() {
+		
+		return "{\n"
+				+ "    \"place_id\" : \"b67f33f45c4281915c96ce15976519b8\",\n"
+				+ "    \"address\" : \"70 Summmer wolk, USA\",\n"
+				+ "    \"key\" : \"qaclick123\"\n"
+				+ "}";
+	}
+	
+	public static String UpdatePlace(String placeID, String address) {
+		
+		return "{\n"
+				+ "    \"place_id\" : \""+placeID+"\",\n"
+				+ "    \"address\" : \""+address+"\",\n"
+				+ "    \"key\" : \"qaclick123\"\n"
+				+ "}";
+	}
 }
